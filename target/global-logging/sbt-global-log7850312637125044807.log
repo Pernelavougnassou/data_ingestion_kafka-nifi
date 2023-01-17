@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\perne\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\perne\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Amazon.com Inc. Java 1.8.0_342)
+[debug]       Load.loadUnit: plugins took 273.393ms
+[debug]       Load.loadUnit: defsScala took 0.3948ms
+[debug] [Loading] Scanning directory C:\Users\perne\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\perne\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 26.5058 ms
+[debug]           Load.resolveProject(global-plugins) took 69.8259ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\perne\.sbt\1.0\plugins, plugins: List(<none>))) took 130.3626ms
+[debug] [Loading] Done in C:\Users\perne\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 159.0651ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4659ms
+[debug]     Load.loadUnit(file:/C:/Users/perne/.sbt/1.0/plugins/, ...) took 444.1082ms
+[debug]   Load.apply: load took 778.2217ms
+[debug]   Load.apply: resolveProjects took 8.9913ms
+[debug]   Load.apply: finalTransforms took 88.3873ms
+[debug]   Load.apply: config.delegates took 13.7381ms
+[debug]   Load.apply: Def.make(settings)... took 1032.8051ms
+[debug]   Load.apply: structureIndex took 196.5562ms
+[debug]   Load.apply: mkStreams took 2.5727ms
+[info] loading global plugins from C:\Users\perne\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 27311.8705ms
+[debug]           Load.loadUnit: plugins took 42.7897ms
+[debug]           Load.loadUnit: defsScala took 0.0034ms
+[debug] [Loading] Scanning directory C:\Users\perne\IdeaProjects\kafka_hive\project
+[debug]             Load.loadUnit: mkEval took 35.8666ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\perne\IdeaProjects\kafka_hive\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.5369 ms
+[info] loading settings for project kafka_hive-build from idea.sbt ...
+[debug]               Load.resolveProject(kafka_hive-build) took 5.0364ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id kafka_hive-build, base: C:\Users\perne\IdeaProjects\kafka_hive\project, plugins: List(<none>))) took 10.7507ms
+[debug] [Loading] Done in C:\Users\perne\IdeaProjects\kafka_hive\project, returning: (kafka_hive-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 7824.3658ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.0867ms
+[debug]         Load.loadUnit(file:/C:/Users/perne/IdeaProjects/kafka_hive/project/, ...) took 7877.4786ms
+[debug]       Load.apply: load took 7879.4721ms
+[debug]       Load.apply: resolveProjects took 0.1943ms
+[debug]       Load.apply: finalTransforms took 17.3656ms
+[debug]       Load.apply: config.delegates took 0.7506ms
+[debug]       Load.apply: Def.make(settings)... took 150.8ms
+[debug]       Load.apply: structureIndex took 50.5275ms
+[debug]       Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Users\perne\IdeaProjects\kafka_hive\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 19851.5547ms
+[debug]     Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\perne\IdeaProjects\kafka_hive
+[debug]       Load.loadUnit: mkEval took 0.3925ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.4649 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 55.5873ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\perne\IdeaProjects\kafka_hive, plugins: List(<none>))) took 61.6412ms
+[debug] [Loading] Done in C:\Users\perne\IdeaProjects\kafka_hive, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4831.8328ms
+[debug]     Load.loadUnit: cleanEvalClasses took 16.1428ms
+[debug]   Load.loadUnit(file:/C:/Users/perne/IdeaProjects/kafka_hive/, ...) took 24700.6933ms
+[debug] Load.apply: load took 24702.5754ms
+[debug] Load.apply: resolveProjects took 0.1277ms
+[debug] Load.apply: finalTransforms took 109.4759ms
+[debug] Load.apply: config.delegates took 0.3467ms
+[debug] Load.apply: Def.make(settings)... took 189.1275ms
+[debug] Load.apply: structureIndex took 56.5706ms
+[debug] Load.apply: mkStreams took 0.0028ms
+[info] set current project to kafka_hive (in build file:/C:/Users/perne/IdeaProjects/kafka_hive/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51056 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51056, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to kafka_hive (in build file:/C:/Users/perne/IdeaProjects/kafka_hive/)
+[debug] > Exec(idea-shell, None, None)
